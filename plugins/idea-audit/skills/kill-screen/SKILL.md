@@ -5,75 +5,92 @@ description: Kill a business idea cheaply, before any product thinking. Runs fiv
 
 # Kill screen
 
-Most ideas die on a question that takes an hour to answer. Ask those first.
+Five questions, each capable of ending the idea. Work through them in order and
+stop at the first failure.
 
-The failure this prevents is spending weeks on dependencies, competitors and
-architecture for an idea that a single phone call would have ended. Run this
-before anything else, and be pleased when it kills something.
+Answer every question with evidence you have actually seen — a quoted pricing
+page, a regulator's own wording, a chatbot's actual reply. Never with
+inference. "Their pricing page says X" is an answer; "presumably they would" is
+not, and should be reported as an unanswered question instead.
 
-Answer each question with evidence, not reasoning. "Their pricing page says X"
-beats "presumably they would".
+Say so plainly when a question kills the idea. That is the skill working, not
+failing.
 
-## 1. Can you get your critical dependency, today, without a sales call?
+## 1. Is the critical dependency obtainable today, without a sales call?
 
-Almost every idea rests on something you do not control: an API, a data feed,
-content rights, a hardware part, a payment rail, an integration, wholesale
-stock, or access to a distribution channel. Name it, then try to get it.
+Almost every idea rests on something the founder does not control: an API, a
+data feed, content rights, a hardware part, a payment rail, an integration,
+wholesale stock, or access to a distribution channel.
 
-Look for: a pricing page with real numbers, a signup that issues a key, a
-documented sandbox, published rate limits. Then look for the disqualifiers —
-"request a demo", "contact our partnerships team", "suitable for high-volume
-partners", a stated revenue or volume minimum, or documentation held under NDA.
+Name it, then check the supplier's own site for:
 
-If your idea has no external dependency, the equivalent question is whether you
-can get the *hardest* input: the data, the expertise, or the initial supply of
-whichever side of a marketplace is scarcer.
+- **Obtainable** — public pricing with real numbers, self-serve signup, a
+  documented sandbox, published rate limits.
+- **Disqualifying** — "request a demo", "contact our partnerships team",
+  "suitable for high-volume partners", a stated revenue or volume minimum,
+  documentation held under NDA.
 
-**Ask this first, not last.** It invalidates everything downstream.
+Marketing pages overstate self-serve access. When only marketing copy supports
+the claim, say so, and ask the user to attempt the signup themselves — that is
+the definitive test and you cannot run it.
+
+If there is no external dependency, substitute the hardest input: the data, the
+expertise, or the initial supply of whichever side of a marketplace is scarcer.
+
+Run this question first. It invalidates everything downstream.
 
 ## 2. Is there a licence?
 
 Regulated distribution — insurance, credit, healthcare, food, alcohol,
-transport — is a barrier *against* an entrant and *for* the incumbent.
+transport — is a barrier against the entrant and for the incumbent.
 
-Check whether an unlicensed route exists, and check that it survives being
-paid for. A common shape: an exemption covers you while you are merely passing
-information along, and evaporates the moment you take a fee for it — which is
-precisely what monetising means. Read the regulator's own guidance, not a
-summary of it.
+Determine whether an unlicensed route exists, and whether it survives being
+paid for. Watch for the common shape: an exemption that covers passing
+information along and evaporates once a fee is taken for it — which is what
+monetising means. Read the regulator's own guidance and quote it. A summary on
+a law firm's blog is not a source for this.
 
-## 3. Does an incumbent's price leave any margin?
+## 3. Does the incumbent's price leave any margin?
 
-Find the cheapest credible incumbent and price the same job. If someone sells
-a lifetime flat rate where you would need a recurring one, there is no margin
-to take and no amount of product quality creates one.
+Find the cheapest credible incumbent and price the same job against it. Report
+both numbers.
+
+A lifetime flat rate against a cost structure needing recurring revenue is
+fatal: no amount of product quality creates margin that the price does not
+leave.
 
 ## 4. Does a general-purpose model already answer this adequately?
 
-New, and now decisive for anything whose value is matching, comparison,
-research or explanation. Put the customer's actual question into a chatbot and
-judge the answer as a customer would.
+Decisive for anything whose value is matching, comparison, research or
+explanation.
 
-If the answer is good enough, the differentiator is commoditised. It may still
-be worth building — a grounded tool reading live data beats a model guessing
-from training data, and models do not transact — but that is a much narrower
-claim than "nobody does this", and it must be argued rather than assumed.
+Put the customer's actual question to a chatbot — the literal sentence they
+would type — and judge the reply as a customer would, not as a specialist
+would. Quote the reply in the output.
+
+If it is good enough, the differentiator is commoditised. The idea may still be
+viable — a grounded tool reading live data beats a model recalling training
+data, and models do not transact — but that is a much narrower claim than
+"nobody does this", and the user must argue it rather than assume it.
 
 ## 5. What does the customer already own that solves this?
 
-The substitute is rarely the obvious competitor. It is usually something they
-already have, already pay for, or can do for nothing.
+The substitute is rarely the obvious competitor. It is usually something the
+customer already has, already pays for, or can do for nothing.
 
-Price the incumbent solution *as the customer experiences it*, including the
-cases where it is free or already bundled. An idea that loses to the thing in
-the customer's pocket in their most common scenario has a much smaller market
-than it appears.
+Price the substitute as the customer experiences it, including the cases where
+it is free or already bundled. Then name the most common scenario. An idea that
+loses to the thing in the customer's pocket in their most common scenario has a
+much smaller market than it appears, and you should say so in those terms.
 
 ## Output
 
-State each answer in one line with its evidence, then a verdict: **proceed**,
-**proceed with a named risk**, or **stop**.
+One line per question: the answer, and the evidence behind it.
 
-If stopping, say which question killed it and what would have to change. An
-idea killed at question 1 may be fine in two years; one killed at question 3 is
-usually dead for good.
+Then a verdict — **proceed**, **proceed with a named risk**, or **stop** — and,
+if stopping, which question killed it and what would have to change for the
+answer to flip.
+
+Distinguish the two kinds of death, because they take different advice: an idea
+killed at question 1 may be viable in two years when the supplier opens up; one
+killed at question 3 is usually dead for good.
