@@ -1,6 +1,7 @@
 # idea-audit
 
-**A Claude Code plugin that pressure-tests a business idea before you build it.**
+**Pressure-test a business idea before you build it.** Runs in Claude Code as a
+plugin, or in the Claude app as a skill.
 
 Describe an idea and it does the research with you: finds everyone who already
 solves the problem, reads what customers actually say about it in public,
@@ -13,6 +14,8 @@ idea goes first, and the frameworks that make an idea sound defensible go last,
 with their limits stated.
 
 ## Install
+
+### Claude Code
 
 ```
 /plugin marketplace add stretch0/idea-audit
@@ -28,6 +31,23 @@ To try it without installing, clone the repo and point Claude Code at it:
 git clone https://github.com/stretch0/idea-audit
 claude --plugin-dir ./idea-audit/plugins/idea-audit
 ```
+
+### Claude app (claude.ai)
+
+Zip the `dist/claude-ai/idea-audit/` folder, then go to
+[Customize → Skills](https://claude.ai/customize/skills) → Add → upload the zip.
+Enable **Code execution** under Settings → Capabilities first, and do it from a
+browser — custom skills cannot be uploaded from the mobile apps.
+
+```bash
+git clone https://github.com/stretch0/idea-audit
+cd idea-audit/dist/claude-ai && zip -r idea-audit.zip idea-audit
+```
+
+The four skills arrive as one, because claude.ai skills cannot invoke each
+other. `pressure-test` becomes the skill itself and the other three sit beside
+it as files it reads when each phase is reached. Everything else is identical —
+it is generated from the plugin, so there is one source of truth.
 
 ## What it looks like
 
@@ -57,7 +77,18 @@ You get evidence and a verdict, not encouragement:
 | `/idea-audit:pressure-test` | Full assessment, phases in the order that kills bad ideas fastest |
 
 Claude will also reach for these on its own when you describe an idea or ask
-whether something is worth pursuing.
+whether something is worth pursuing. In the Claude app they are one skill,
+`idea-audit`, entered at the pressure test.
+
+## Contributing
+
+`plugins/idea-audit/` is the source of truth. `dist/` is generated — edit the
+plugin and rebuild:
+
+```bash
+node scripts/build-claude-ai.mjs           # write dist/
+node scripts/build-claude-ai.mjs --check   # fail if dist/ is stale
+```
 
 `customer-research` does the public-source searching itself, then hands back a
 list of named people who posted about the problem recently — and will coach you
