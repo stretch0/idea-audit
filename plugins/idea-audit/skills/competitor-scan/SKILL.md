@@ -102,8 +102,12 @@ re-check every claim of the form "nobody does this".
 
 ## The failure this prevents
 
-A brief once identified bundled land-and-sea connectivity as a differentiation
-opportunity "worth investigating". A specialist was already selling exactly
-that product across 280+ ships, and had been for some time. The analysis was
-careful, the frameworks were applied properly, and the market map was missing a
-company — so the proposed differentiator was somebody else's core product.
+The pattern is always the same shape. A plan names a capability as its
+differentiator — the thing no competitor offers — and a specialist in an
+adjacent segment has been shipping exactly that for years. The analysis was
+careful, the framework was applied properly, and the map was missing one
+company, so the proposed differentiator was somebody else's core product.
+
+It is rarely the obvious competitor that gets missed. It is the specialist one
+segment over, or the generalist who launched a product line last quarter, or
+the free thing the customer already has.
