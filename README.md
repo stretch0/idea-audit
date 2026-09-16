@@ -96,13 +96,16 @@ evidence, when it finally arrived, took an afternoon and changed the answer.
 The same screen, applied afterwards to two other ideas, killed both in under an
 hour.
 
-## Reference
+## Further reading
 
-- [`frameworks.md`](plugins/idea-audit/reference/frameworks.md) — Porter's,
-  SWOT, Rumelt's kernel, 7 Powers, JTBD, evolution mapping, and where each one
-  misleads
-- [`reading.md`](plugins/idea-audit/reference/reading.md) — the short list,
-  ordered by what each book fixes
+[`READING.md`](READING.md) — a short list, ordered by what each book fixes
+rather than by fame. Start with The Mom Test if you have never interviewed a
+customer.
+
+If you want to see how the skills apply the frameworks — and what each
+framework cannot tell you —
+[`reference/frameworks.md`](plugins/idea-audit/reference/frameworks.md) is the
+operational note the agent loads when it needs one.
 
 ## License
 

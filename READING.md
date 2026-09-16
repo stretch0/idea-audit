@@ -1,5 +1,8 @@
 # Reading
 
+Further reading for [idea-audit](README.md). Not used by the skills — this is
+for you, not the agent.
+
 Ordered by what they fix, not by fame.
 
 ## Demand and customers
