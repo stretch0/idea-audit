@@ -66,11 +66,54 @@ direction. Plus one sentence on which force dominates.
 - It is only as good as the list of players, so run `/idea-audit:competitor-scan`
   first.
 
-**Failure mode:** reporting "an underserved quadrant" as a conclusion. It is a
-description of a sector at one moment, not a decision.
+**Failure mode:** reporting a sector as "attractive" as though that were a
+decision. It is a description of an industry average at one moment, and says
+nothing about whether any position in it is available to this founder.
 
 For any business reselling or intermediating, add **supplier power** explicitly
 — it is where consolidation and margin compression show up first.
+
+---
+
+## Porter's generic strategies (the matrix)
+
+Two axes — advantage (cost or differentiation) against scope (broad or narrow)
+— giving cost leadership, differentiation, cost focus and differentiation
+focus. Distinct from Five Forces: the forces describe whether a sector is
+profitable, the matrix describes which position a player occupies in it.
+
+**Use for** stating a chosen position compactly, after the market map is
+complete and demand is evidenced. Not for finding the gap.
+
+**Run it:** place every player from `/idea-audit:competitor-scan` in a cell,
+each with the evidence that put it there. Then place the proposed position, and
+name who else is in that cell.
+
+**Output:** the populated matrix, the proposed cell, and the occupants of that
+cell. If the proposed cell is empty, an explicit answer to why — see below.
+
+**Always state alongside:**
+- **An empty cell is not a gap.** The matrix plots chosen positions, not
+  demand. A cell is empty because nobody has reached it *or* because it is not
+  viable, and the matrix cannot tell those apart. Establishing which is the job
+  of the demand phase and the competitor scan, and the matrix must not be used
+  to skip either.
+- The axes are chosen by whoever draws it. Add enough dimensions of
+  "differentiated" and every player occupies a unique cell, so a matrix showing
+  the proposal alone in a quadrant is usually a statement about the axes.
+- For a small operator the two broad cells are not available at all. Cost
+  leadership against a funded incumbent is not a strategy. The real choice is
+  between the two focus cells, which reduces the matrix to "pick a niche".
+- "Stuck in the middle" is Porter's own claim and is contested; hybrid
+  positions demonstrably exist.
+- It is static. It says nothing about whether a cell's occupant will stay
+  there, or whether a generalist is about to enter it.
+
+**Failure mode:** choosing focused differentiation because the cell looked
+empty, when the cell was empty because the niche is too small to support a
+business, or because a specialist who never made the map is already in it. This
+is the single most common way a careful analysis produces a confident wrong
+answer, and it is why the competitor scan runs first.
 
 ---
 

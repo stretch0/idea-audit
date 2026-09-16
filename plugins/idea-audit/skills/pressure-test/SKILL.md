@@ -102,7 +102,12 @@ each misleads.
 - **7 Powers** — the sharper tool for "is this defensible?"
 - **Jobs to be Done** — what is the customer hiring this to do?
 - **Porter's Five Forces** — industry-average and static. Useful for describing
-  a sector, weak for deciding a position. State its limits whenever you use it.
+  whether a sector is profitable, weak for deciding a position. State its
+  limits whenever you use it.
+- **Porter's generic strategies** — the cost/differentiation against
+  broad/narrow matrix. Use it to *state* a position, never to find one: an
+  empty cell is not a gap, and the matrix cannot distinguish a cell nobody has
+  reached from a cell that is not viable.
 - **SWOT** — widely understood, analytically the weakest here. It invites
   symmetry and produces lists rather than decisions. Use it to communicate a
   conclusion, never to reach one.
