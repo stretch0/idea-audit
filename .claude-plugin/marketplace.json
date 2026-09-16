@@ -1,0 +1,14 @@
+{
+  "name": "idea-screen",
+  "description": "Pressure-test a business idea before building it: cheap kill criteria first, demand evidence before supply, frameworks last.",
+  "owner": {
+    "name": "Andrew McCallum"
+  },
+  "plugins": [
+    {
+      "name": "idea-screen",
+      "source": "./plugins/idea-screen",
+      "description": "Pressure-test a business idea before building it: cheap kill criteria first, demand evidence before supply, and the frameworks last."
+    }
+  ]
+}
