@@ -1,6 +1,6 @@
 ---
 name: pressure-test
-description: Run a full pressure test on a business idea, in the order that kills bad ideas fastest. Use when assessing whether a business, product or side project is worth pursuing, or when a strategy needs stress-testing before commitment.
+description: Pressure-test a business idea in the order that kills bad ideas fastest. The entry point for idea-audit — runs the kill screen, customer research and competitor scan in sequence and stops at the first failure. Use when assessing whether a business, product or side project is worth pursuing, or when a strategy needs stress-testing before commitment.
 ---
 
 # Pressure-test a business idea

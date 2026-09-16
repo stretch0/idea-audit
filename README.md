@@ -59,18 +59,43 @@ You get evidence and a verdict, not encouragement:
 
 ## Skills
 
+### Start here
+
+```
+/idea-audit:pressure-test a subscription box for X, aimed at Y
+```
+
+`pressure-test` is the orchestrator, and the only one you need to remember. It
+runs the other three in the order that kills bad ideas fastest and **stops at
+the first phase that fails** — so most runs never reach the end, which is the
+point.
+
+| Phase | What runs | Ends the idea when |
+| --- | --- | --- |
+| 0 | `kill-screen` | A gating question fails — no supply, no licence, no margin |
+| 1 | `customer-research` | Nobody can be shown to have the problem |
+| 2 | `competitor-scan` | Somebody already sells the differentiator |
+| 3–4 | Defensibility and channel, inline | No moat, or no way to reach anyone |
+| 5 | `frameworks.md` | — frameworks describe a position, they never rescue one |
+
+The phases load as they are reached, not all at once, so a run that stops at
+Phase 0 never reads the rest.
+
+### Running one on its own
+
+Each phase is also a skill in its own right, for when you already know which
+question you have:
+
 | Skill | Use it when |
 | --- | --- |
 | `/idea-audit:kill-screen` | You have an idea. Five gating questions, under an hour, most ideas end here |
-| `/idea-audit:competitor-scan` | Before positioning — find everyone who already solves this, including the free and DIY ones |
 | `/idea-audit:customer-research` | You need to know whether anyone has the problem, before building |
-| `/idea-audit:pressure-test` | Full assessment, phases in the order that kills bad ideas fastest |
+| `/idea-audit:competitor-scan` | Before positioning — find everyone who already solves this, including the free and DIY ones |
 
-Claude will also reach for these on its own when you describe an idea or ask
-whether something is worth pursuing.
-
-The skills are loaded as each phase is reached, not all at once, so a run that
-stops at Phase 0 never reads the rest.
+Claude will also reach for any of these on its own when you describe an idea or
+ask whether something is worth pursuing. In the Claude app there are no slash
+commands — say "pressure-test this idea: ..." and it picks the skill up from
+there.
 
 `customer-research` does the public-source searching itself, then hands back a
 list of named people who posted about the problem recently — and will coach you
