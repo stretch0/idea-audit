@@ -1,0 +1,8 @@
+{
+  "name": "idea-audit",
+  "description": "Pressure-test a business idea before building it: competitor analysis, market research, demand validation, and cheap kill criteria that end most ideas in under an hour. Frameworks last, with their limits stated.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Andrew McCallum"
+  }
+}
