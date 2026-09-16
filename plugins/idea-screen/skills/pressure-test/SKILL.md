@@ -27,11 +27,18 @@ anyone have this problem, in their own words, recently?**
 If demand cannot be evidenced, nothing downstream matters. An idea that reaches
 Phase 4 without a single customer quote is an idea nobody has checked.
 
-## Phase 2 — Substitutes
+## Phase 2 — Who already exists
 
-Not "who are the competitors" but **"what does this person do today?"** —
-including doing nothing, using something free, or using a thing they already
-pay for.
+Run the `competitor-scan` skill. Positioning against an incomplete list is how
+a careful analysis produces a confident wrong answer.
+
+This covers direct competitors, specialists, generalists moving in, free and
+DIY alternatives, aggregators, and general-purpose AI. Do it **before**
+positioning, and treat every "nobody does this" as a claim to disprove.
+
+Then the substitute question specifically: not "who are the competitors" but
+**"what does this person do today?"** — including doing nothing, using
+something free, or using a thing they already pay for.
 
 Price the substitute as the customer experiences it. Then find the scenario
 where you lose, and say so plainly. Most ideas have one; an idea whose
@@ -108,6 +115,9 @@ than documentation, say so.
 - Treating a framework's output as a finding
 - Trusting undated sources, or any source about a perishable fact
 - Assuming the competitor is the substitute
+- Positioning before the market map is complete — Porter's on a partial list
+  is confidently wrong, and the classic result is proposing a differentiator
+  that a specialist already sells
 - Skipping "does a chatbot already do this?"
 - Asking gating questions last
 - Switching ideas to escape a channel problem — the next idea usually has the
