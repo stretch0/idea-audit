@@ -106,4 +106,4 @@ hour.
 
 ## License
 
-Not yet chosen.
+[MIT](LICENSE) — use it, change it, ship it.

@@ -4,5 +4,7 @@
   "version": "0.1.0",
   "author": {
     "name": "Andrew McCallum"
-  }
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/stretch0/idea-audit"
 }
