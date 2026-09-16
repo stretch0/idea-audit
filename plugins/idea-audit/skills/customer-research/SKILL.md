@@ -50,6 +50,20 @@ Quote the emotional register in full when it appears. "I've been putting this
 off", "I feel stupid", "I was scared of the bill" are stronger signals than any
 feature request.
 
+### Vendor copy is not customer evidence
+
+A search for people describing a problem returns, near the top, marketing
+written to sound exactly like people describing that problem. Testimonials,
+case studies, landing-page headlines and "why we built this" posts are
+engineered from the same emotional register you are hunting for, which is
+precisely what makes them dangerous.
+
+Check the source of every quote before it enters the record, and say which side
+of the line it fell on. A competitor's testimonial is evidence that **they** are
+betting on the problem — worth knowing, and a fair prompt for a question — but
+it is a hypothesis somebody is selling, not a customer speaking unprompted.
+Never quote it as demand.
+
 ### Date every finding
 
 Shelf life varies enormously. State the age of each finding rather than
