@@ -61,35 +61,30 @@ Or locally, without installing: `claude --plugin-dir ./plugins/idea-audit`
 
 ## Why it exists
 
-It came out of building and then killing a side project — an eSIM reseller for
-cruise travellers — the slow way. That history is the source of every rule in
-here, so preserve the reasoning even if you rewrite the prose.
+It came out of building and then killing a side project the slow way. That
+history is the source of every rule in here, so preserve the reasoning even if
+you rewrite the prose.
 
 What went wrong, in order:
 
 1. **Supply-side research ran for weeks before anyone read a customer's words.**
-   Aggregator APIs, unit economics, OS-level install constraints, competitor
-   pricing — all solid, none of it the thing that decides. The first demand
-   evidence arrived *after* the product was built, took an afternoon, and
-   changed the answer.
+   Supplier APIs, unit economics, platform constraints, competitor pricing —
+   all solid, none of it the thing that decides. The first demand evidence
+   arrived *after* the product was built, took an afternoon, and changed the
+   answer.
 2. **A framework's output was mistaken for a finding.** Porter's Five Forces
    said the niche was underserved. It is industry-average, static, silent on
    demand, and assumes your constraint is capital rather than distribution.
 3. **The market map was incomplete, so the positioning was confident and
-   wrong.** The brief proposed bundled land-and-sea connectivity as a
-   differentiation opportunity "worth investigating". A specialist was already
-   selling exactly that across 280+ ships. It also missed a well-funded
-   generalist that entered within the year, the affiliate content layer that
-   owned the search results, and general-purpose AI — a traveller in a recent
-   forum thread solved the exact problem the product existed to solve by asking
-   a chatbot.
+   wrong.** The plan proposed as a differentiation opportunity something a
+   specialist was already selling at scale, and had been for some time. It also
+   missed a well-funded generalist that entered the niche within the year, the
+   affiliate content layer that owned the search results, and general-purpose
+   AI — a user in a recent forum thread solved the exact problem the product
+   existed to solve by asking a chatbot.
 4. **The gating questions were asked last.** "Will a supplier onboard a
    pre-revenue project?" should have been first. When the same screen was later
    applied to two alternative ideas, it killed both in under an hour.
-
-The fuller write-up lives in the other repo at `stretch0/wayfarer`, in
-`docs/decision-log.md`, `docs/customer-research.md`,
-`docs/competitive-landscape.md` and `docs/aggregator-spike.md`.
 
 ## What is in it
 
