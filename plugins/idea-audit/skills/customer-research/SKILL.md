@@ -82,6 +82,20 @@ Large forums often block automated fetches. Name the sources you could not
 read, and use a browser tool if one is available. A thinner result reported as
 a complete one is worse than no result.
 
+### A null result is a claim, and needs the same evidence
+
+"I searched and found nobody discussing this" is usually the single
+highest-stakes sentence in the whole audit, because it kills the idea. Never
+report it bare. State the communities searched, the exact terms used, and the
+date range covered, so the user can see whether the search was wrong rather
+than the market.
+
+Absence found in three obvious communities is weak. Absence found across the
+places where this customer demonstrably congregates, in their own vocabulary,
+is strong — and the difference is invisible unless you show the searches. If
+you could not identify where these people gather, say that instead: it is a
+different and more recoverable finding than silence.
+
 ## Stage 2 — Build the recruiting list
 
 The threads from Stage 1 are not only evidence. They are named people who have

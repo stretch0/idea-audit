@@ -50,6 +50,14 @@ information along and evaporates once a fee is taken for it — which is what
 monetising means. Read the regulator's own guidance and quote it. A summary on
 a law firm's blog is not a source for this.
 
+**"No licence needed" requires a citation too.** It is an easy sentence to
+write about an unregulated-sounding category and it is wrong surprisingly
+often, because registration regimes attach to the *activity* — selling at
+distance, handling, transporting, storing — rather than to the product. Search
+for the activity, not only the product, and either quote the regulator ruling
+it out or report the question as unanswered. Never clear this question by
+pattern-matching on how ordinary the goods seem.
+
 ## 3. Does the incumbent's price leave any margin?
 
 Find the cheapest credible incumbent and price the same job against it. Report
