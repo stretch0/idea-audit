@@ -65,18 +65,22 @@ name who else is in that cell.
 **Output:** the populated matrix, the proposed cell, and the occupants of that
 cell. If the proposed cell is empty, an explicit answer to why — see below.
 
-**Always state alongside:**
+**Always state alongside. The first two are not optional — give them even
+when the answer is being kept short:**
+
 - **An empty cell is not a gap.** The matrix plots chosen positions, not
   demand. A cell is empty because nobody has reached it *or* because it is not
   viable, and the matrix cannot tell those apart. Establishing which is the job
   of the demand phase and the competitor scan, and the matrix must not be used
   to skip either.
+- **For a small operator the two broad cells do not exist.** Cost leadership
+  against a funded incumbent is not a strategy, and broad differentiation needs
+  a marketing budget to match. The real choice is between the two focus cells,
+  which reduces the whole matrix to "pick a niche" — say that plainly rather
+  than presenting four live options to someone who has two.
 - The axes are chosen by whoever draws it. Add enough dimensions of
   "differentiated" and every player occupies a unique cell, so a matrix showing
   the proposal alone in a quadrant is usually a statement about the axes.
-- For a small operator the two broad cells are not available at all. Cost
-  leadership against a funded incumbent is not a strategy. The real choice is
-  between the two focus cells, which reduces the matrix to "pick a niche".
 - "Stuck in the middle" is Porter's own claim and is contested; hybrid
   positions demonstrably exist.
 - It is static. It says nothing about whether a cell's occupant will stay
