@@ -13,6 +13,10 @@ The work splits in two. Part 1 you do yourself, now. Part 2 only the user can
 do — your job there is to hand them a protocol they can run and a stop
 condition they have agreed to in advance.
 
+Read [`frameworks.md`](../../reference/frameworks.md) before reporting a
+result: this method has known blind spots — notably that it cannot tell you how
+many people have the problem — and the report must state the relevant ones.
+
 ## Part 1 — Listen, yourself, first
 
 Go where the problem is already discussed unprompted: forums, subreddits,
