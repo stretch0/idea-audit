@@ -5,40 +5,13 @@ explainer — assume the framework is already understood. This covers how to run
 it in an idea audit, what the output must contain, and the limitation to state
 alongside it so nobody mistakes the output for a finding.
 
-The first entry is a method used in the demand phase; the rest are analysis
-frameworks used last, to articulate a position already evidenced.
+These are analysis frameworks, used last, to articulate a position already
+evidenced. The demand phase's own method and its limits live in
+`/idea-audit:customer-research`.
 
 Rule for all of them: **name specific actors and cite evidence.** A force, a
 power or a quadrant filled in abstractly is decoration.
 
----
-
-## The Mom Test
-
-**Use for** establishing whether a problem exists, in the customer's own words.
-The procedure — the question substitutions, the commitment scoring, the stop
-condition — is in `/idea-audit:customer-research`. This entry is the part that
-skill does not carry: where the method misleads.
-
-**Output:** verbatim quotes with dates, and a commitment score per conversation
-that cites what it cost the person to give.
-
-**Always state alongside:**
-- It interrogates past behaviour, so it is weakest exactly where there is none.
-  In a genuinely new category, "nobody has tried to solve this" reads
-  identically to "nobody wants this" — and is sometimes the opportunity.
-- It establishes that a problem exists, not how many people have it. Ten strong
-  conversations and a total market of five hundred people look the same.
-- Commitment signals inflate with social proximity. A friend hands over contact
-  details cheaply, so the currency is worth less from a warm introduction than
-  from a stranger, and the report should say which it was.
-- It is a filter tuned against false positives and it will discard some true
-  ones. That is the intended trade, and worth restating when a founder is
-  disappointed by the result.
-
-**Failure mode:** reporting "strong demand signal" from conversations the
-founder sourced entirely from their own network, or from a sample too small to
-say anything about volume.
 
 ---
 

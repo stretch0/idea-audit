@@ -96,7 +96,7 @@ line items.
 Use these to *articulate* a position already evidenced, never to discover one.
 A framework applied to the findings of Phases 1–4 is a summary; applied before
 them it manufactures confidence. See
-[`frameworks.md`](../../reference/frameworks.md) for how to run each and where
+[`frameworks.md`](frameworks.md) for how to run each and where
 each misleads.
 
 - **Rumelt's kernel** — diagnosis, guiding policy, coherent action. The best

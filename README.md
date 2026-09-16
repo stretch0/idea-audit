@@ -121,7 +121,7 @@ The Mom Test applied; the defensibility test is 7 Powers; the strategy check is
 Rumelt's kernel; the demand question is Jobs to be Done. Those are built in as
 instructions, not offered as a reading list.
 
-[`reference/frameworks.md`](plugins/idea-audit/reference/frameworks.md) is the
+[`reference/frameworks.md`](plugins/idea-audit/skills/pressure-test/frameworks.md) is the
 operational note the agent loads when it needs one: how to run each framework,
 what output it must produce, and what it cannot tell you.
 

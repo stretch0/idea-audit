@@ -13,9 +13,6 @@ Do as much as possible yourself before asking the user for anything. Stages 1
 to 3 need nothing from them. Stage 4 is the part only they can do, and your job
 there is to steer it live rather than hand over a document.
 
-Read [`frameworks.md`](../../reference/frameworks.md) before reporting a
-result: this method has known blind spots — notably that it cannot tell you how
-many people have the problem — and the report must state the relevant ones.
 
 ## Stage 1 — Search, in parallel
 
@@ -200,3 +197,23 @@ including when the user is clearly pleased with them.
 - The findings that hurt — first, not last. They are the ones that change the
   decision, and a summary that buries them has failed at the only thing this
   skill is for.
+
+## Where this method misleads
+
+State the relevant ones in the report; none of them is a reason not to run it.
+
+- It interrogates past behaviour, so it is weakest exactly where there is none.
+  In a genuinely new category, "nobody has tried to solve this" reads
+  identically to "nobody wants this" — and is sometimes the opportunity.
+- It establishes that a problem exists, not how many people have it. Ten strong
+  conversations and a total market of five hundred people look the same.
+- Commitment signals inflate with social proximity. A friend hands over contact
+  details cheaply, so the currency is worth less from a warm introduction than
+  from a stranger, and the report must say which it was.
+- It is a filter tuned against false positives and it will discard some true
+  ones. That is the intended trade, and worth restating when a founder is
+  disappointed by the result.
+
+**Failure mode:** reporting "strong demand signal" from conversations the
+founder sourced entirely from their own network, or from a sample too small to
+say anything about volume.
