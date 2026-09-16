@@ -96,16 +96,16 @@ evidence, when it finally arrived, took an afternoon and changed the answer.
 The same screen, applied afterwards to two other ideas, killed both in under an
 hour.
 
-## Further reading
+## What's underneath
 
-[`READING.md`](READING.md) — a short list, ordered by what each book fixes
-rather than by fame. Start with The Mom Test if you have never interviewed a
-customer.
+The skills are not neutral. The question discipline in `customer-research` is
+The Mom Test applied; the defensibility test is 7 Powers; the strategy check is
+Rumelt's kernel; the demand question is Jobs to be Done. Those are built in as
+instructions, not offered as a reading list.
 
-If you want to see how the skills apply the frameworks — and what each
-framework cannot tell you —
 [`reference/frameworks.md`](plugins/idea-audit/reference/frameworks.md) is the
-operational note the agent loads when it needs one.
+operational note the agent loads when it needs one: how to run each framework,
+what output it must produce, and what it cannot tell you.
 
 ## License
 

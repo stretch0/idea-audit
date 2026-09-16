@@ -63,8 +63,15 @@ poor place to build a durable margin, however attractive it looks today.
 
 ## Phase 4 — Channel
 
-Usually the binding constraint, and usually assumed rather than solved.
+Usually the binding constraint, and usually assumed rather than solved. Treat
+a missing channel as a problem for now, not for launch: a good idea you cannot
+reach anyone about is worth less than a mediocre one aimed at people who
+already listen to the founder.
 
+- **Does the founder already have access to an audience?** If so, ask whether
+  that audience should be picking the idea rather than the reverse. This
+  inverts the usual order and is worth raising explicitly, because founders
+  rarely volunteer it.
 - Is the search space already held by better-resourced operators?
 - Are the customers **enumerable**? A list you can work through beats any
   amount of content strategy.
