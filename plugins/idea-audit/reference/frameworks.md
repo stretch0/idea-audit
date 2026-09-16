@@ -22,8 +22,8 @@ Rivalry, threat of entry, substitutes, buyer power, supplier power.
   constraints are distribution and time, which it does not model.
 - **It is only as good as your list of players.** Five Forces takes the
   competitive set as given. Run it against an incomplete map and it returns a
-  confident answer about a market that does not exist — so do the
-  `competitor-scan` first, not after.
+  confident answer about a market that does not exist — so run
+  `/idea-audit:competitor-scan` first, not after.
 
 **If you use it:** add supplier power explicitly for any reselling business,
 and date the analysis. Re-run it before committing anything large.

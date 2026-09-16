@@ -30,9 +30,10 @@ Write down the literal sentence a customer would type, then search that.
    exhaustive listings.
 3. **The communities.** Ask what people actually use. Real users name brands no
    analyst list contains — and their answers are current.
-4. **Your supplier's partner pages.** Whoever supplies you also supplies your
-   competitors, and their case studies and partner announcements enumerate them
-   for free.
+4. **The partner and customer pages of whatever you depend on.** Whoever
+   supplies your API, platform or stock supplies your competitors too, and
+   their case studies, integration directories and partner announcements
+   enumerate them for free.
 5. **App stores.** Search the category, then read the one- and two-star reviews
    of the top ten.
 6. **Reviews and complaints about incumbents.** These reveal both the unmet

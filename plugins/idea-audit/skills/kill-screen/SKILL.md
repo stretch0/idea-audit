@@ -7,22 +7,27 @@ description: Kill a business idea cheaply, before any product thinking. Runs fiv
 
 Most ideas die on a question that takes an hour to answer. Ask those first.
 
-The failure this prevents is spending weeks on supply chains, competitors and
+The failure this prevents is spending weeks on dependencies, competitors and
 architecture for an idea that a single phone call would have ended. Run this
 before anything else, and be pleased when it kills something.
 
 Answer each question with evidence, not reasoning. "Their pricing page says X"
 beats "presumably they would".
 
-## 1. Can a pre-revenue operator get supply today, self-serve?
+## 1. Can you get your critical dependency, today, without a sales call?
 
-If the thing being resold or built on requires a sales call, a contract, a
-minimum volume or a revenue threshold, a side project cannot start.
+Almost every idea rests on something you do not control: an API, a data feed,
+content rights, a hardware part, a payment rail, an integration, wholesale
+stock, or access to a distribution channel. Name it, then try to get it.
 
-Look for: a pricing page with numbers, a signup that issues an API key, a
-documented sandbox. Then look for the disqualifiers — "request a demo",
-"contact our partnerships team", "suitable for high-volume partners", a stated
-revenue minimum, or an API reference distributed under NDA.
+Look for: a pricing page with real numbers, a signup that issues a key, a
+documented sandbox, published rate limits. Then look for the disqualifiers —
+"request a demo", "contact our partnerships team", "suitable for high-volume
+partners", a stated revenue or volume minimum, or documentation held under NDA.
+
+If your idea has no external dependency, the equivalent question is whether you
+can get the *hardest* input: the data, the expertise, or the initial supply of
+whichever side of a marketplace is scarcer.
 
 **Ask this first, not last.** It invalidates everything downstream.
 
@@ -31,10 +36,11 @@ revenue minimum, or an API reference distributed under NDA.
 Regulated distribution — insurance, credit, healthcare, food, alcohol,
 transport — is a barrier *against* an entrant and *for* the incumbent.
 
-Check whether an unlicensed route exists, and check what it costs to use. A
-common pattern: an introducer exemption exists but evaporates the moment you
-take payment for the introduction, which is precisely what monetising means.
-Read the actual regulator's guidance, not a summary.
+Check whether an unlicensed route exists, and check that it survives being
+paid for. A common shape: an exemption covers you while you are merely passing
+information along, and evaporates the moment you take a fee for it — which is
+precisely what monetising means. Read the regulator's own guidance, not a
+summary of it.
 
 ## 3. Does an incumbent's price leave any margin?
 

@@ -14,14 +14,14 @@ with a customer until after the product exists.
 
 ## Phase 0 — Kill screen
 
-Run the `kill-screen` skill first. Five questions, under an hour, and most
+Run `/idea-audit:kill-screen` first. Five questions, under an hour, and most
 ideas end here. Do not proceed to anything below until it passes.
 
 ## Phase 1 — Demand
 
 Before suppliers, before competitors, before architecture.
 
-Run the `customer-research` skill. You are answering one question: **does
+Run `/idea-audit:customer-research`. You are answering one question: **does
 anyone have this problem, in their own words, recently?**
 
 If demand cannot be evidenced, nothing downstream matters. An idea that reaches
@@ -29,7 +29,7 @@ Phase 4 without a single customer quote is an idea nobody has checked.
 
 ## Phase 2 — Who already exists
 
-Run the `competitor-scan` skill. Positioning against an incomplete list is how
+Run `/idea-audit:competitor-scan`. Positioning against an incomplete list is how
 a careful analysis produces a confident wrong answer.
 
 This covers direct competitors, specialists, generalists moving in, free and
@@ -81,8 +81,8 @@ so a community presence and AI visibility are often the same work.
 ## Phase 5 — Frameworks, last
 
 Use these to *articulate* a position you have already evidenced, never to
-discover one. See `reference/frameworks.md` for how to run each and where each
-misleads.
+discover one. See [`frameworks.md`](../../reference/frameworks.md) for how to run each and
+where each misleads.
 
 - **Rumelt's kernel** — diagnosis, guiding policy, coherent action. The best
   test of whether a strategy is a strategy or a slogan.
