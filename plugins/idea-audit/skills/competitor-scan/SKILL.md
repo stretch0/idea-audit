@@ -67,8 +67,19 @@ finding.
 ## Build the matrix
 
 One row per player, one column per capability that matters. Fill every cell
-from the company's own pages, and cite them. Do not fill cells from summaries,
-listicles, or your own recollection of the company.
+from the company's own pages. Do not fill cells from summaries, listicles, or
+your own recollection of the company — roundup pages are for *finding* players,
+never for populating their capabilities, and stale pricing is where they are
+wrong most often.
+
+Make that visible rather than promising it. Every row carries **its own source
+and the date it was read**, so a row filled from a comparison article is
+obvious at a glance instead of hiding behind a citation attached to the section
+as a whole.
+
+A capability you did not verify is **"unknown"**, written out. Never a dash or
+an empty cell — those read as "no", and a competitor silently credited with not
+having a feature is worse than an admitted gap in the research.
 
 Then take each claimed differentiator and **attempt to disprove it** — search
 specifically for someone shipping that exact thing. Report the attempt either
