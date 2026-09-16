@@ -25,7 +25,9 @@ end here. Do not proceed until it passes.
 Before suppliers, before competitors, before architecture.
 
 Run `/idea-audit:customer-research`. One question: **does anyone have this
-problem, in their own words, recently?**
+problem, in their own words, recently?** It searches public sources itself and
+returns a recruiting list, so nothing here is blocked on the user before the
+conversations start.
 
 If demand cannot be evidenced, stop — nothing downstream matters. An idea that
 reaches Phase 4 with no customer quote behind it is an idea nobody has checked,

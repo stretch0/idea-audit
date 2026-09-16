@@ -1,41 +1,61 @@
 ---
 name: customer-research
-description: Find out whether anyone actually has the problem, using public evidence and Mom Test question discipline. Use when validating demand, before building, or when an idea rests on an assumption about what customers want or do.
+description: Find out whether anyone actually has the problem, using public evidence and Mom Test question discipline. Searches public sources first, then coaches the user through real conversations question by question. Use when validating demand, before building, or when an idea rests on an assumption about what customers want or do.
 ---
 
 # Customer research
 
 Answer one question: **does anyone have this problem, in their own words,
-recently?** Everything else downstream depends on it, and it is the cheapest
-research available.
+recently?** It is the cheapest research available and almost always gets done
+last.
 
-The work splits in two. Part 1 you do yourself, now. Part 2 only the user can
-do — your job there is to hand them a protocol they can run and a stop
-condition they have agreed to in advance.
+Do as much as possible yourself before asking the user for anything. Stages 1
+to 3 need nothing from them. Stage 4 is the part only they can do, and your job
+there is to steer it live rather than hand over a document.
 
 Read [`frameworks.md`](../../reference/frameworks.md) before reporting a
 result: this method has known blind spots — notably that it cannot tell you how
 many people have the problem — and the report must state the relevant ones.
 
-## Part 1 — Listen, yourself, first
+## Stage 1 — Search, in parallel
 
-Go where the problem is already discussed unprompted: forums, subreddits,
-review sections, support communities, question sites. Unprompted discussion
-beats interviews, because nobody was performing for an interviewer.
+Unprompted public discussion beats interviews, because nobody was performing
+for an interviewer. Start there.
 
-Extract exactly three things per thread:
+If subagents are available, fan out — one per source class, dispatched in a
+single message so they run concurrently:
+
+- Forums and subreddits where the problem is discussed
+- Review sections and app-store reviews of the incumbents, one- and two-star
+  first
+- Question sites and support communities
+- The frequency count (below), run as its own search
+- A chatbot given the customer's literal question, to see whether the problem
+  is already adequately answered
+
+Give every subagent the same extraction contract, and enforce it on return:
+
+> Return verbatim quotes with a URL and a date for each. Do not summarise, do
+> not characterise the sentiment, do not aggregate. A quote you cannot link and
+> date does not count.
+
+That contract is the whole point of the fan-out. A subagent that returns "users
+find this frustrating" has destroyed the evidence, and the copy, and the
+dates. Send it back rather than working from it.
+
+From each thread extract exactly three things:
 
 - **What they did** — the behaviour, not the stated preference
 - **What it cost them** — money, time, or a bad day
-- **Their exact words**, quoted verbatim — these become the copy later
+- **Their exact words**, verbatim — these become the marketing copy later
 
-Flag the emotional register when it appears. "I've been putting this off", "I
-feel stupid", "I was scared of the bill" are stronger signals than any feature
-request, and worth quoting in full.
+Quote the emotional register in full when it appears. "I've been putting this
+off", "I feel stupid", "I was scared of the bill" are stronger signals than any
+feature request.
 
 ### Date every finding
 
-Shelf life varies enormously, so state the age of each finding rather than
+Shelf life varies enormously. State the age of each finding rather than
 presenting them as one body of evidence:
 
 | Finding | Shelf life |
@@ -45,29 +65,44 @@ presenting them as one body of evidence:
 | Which competitor is best | Months |
 | A specific gap or missing feature | Weeks — someone may have closed it |
 
-Re-check the perishable ones before reporting them. Sort by newest and say
-plainly how old the stream is. A two-year-old thread is evidence the problem
-*existed*, and must be reported as that and not as current demand.
+Re-check the perishable ones. A two-year-old thread is evidence the problem
+*existed*, and must be reported as that, never as current demand.
 
 ### Count the frequency
 
-Existence is not volume. Search the community for the key term, sort by newest,
-and report a rate: posts per week, and how far back page one reaches.
+Existence is not volume. Search the key term, sort by newest, and report a
+rate: posts per week, and how far back page one reaches.
 
 Count threads, not posts. One long thread generates many mentions and will
-overstate the population if you count them individually.
+overstate the population.
 
-### When a source blocks you
+### Say what you could not reach
 
-Large forums often refuse automated fetches. Say which sources you could not
-reach rather than quietly reporting a thinner result, and use a browser tool if
-one is available.
+Large forums often block automated fetches. Name the sources you could not
+read, and use a browser tool if one is available. A thinner result reported as
+a complete one is worse than no result.
 
-## Part 2 — The protocol you hand the user
+## Stage 2 — Build the recruiting list
 
-The founder's instinct is to describe the idea and ask whether people like it.
-That produces compliments, which are worthless. Give them these substitutions
-explicitly:
+The threads from Stage 1 are not only evidence. They are named people who have
+the problem, posting in public, recently.
+
+Produce a list the user can work through: where each person was found, what
+they said, when, and the one thing worth asking them. Sort by recency and by
+how specific their complaint was.
+
+This is usually the most immediately useful artefact of the whole skill, and it
+costs nothing extra once Stage 1 is done. Do not skip it and tell the user to
+"find some customers".
+
+## Stage 3 — Draft the questions, tailored
+
+Generic question lists produce generic answers. Write the actual questions for
+*this* idea, each one aimed at a specific claim Stage 1 surfaced or failed to
+surface.
+
+Apply these substitutions, and keep applying them to anything the user
+proposes:
 
 | Don't ask | Ask instead |
 | --- | --- |
@@ -76,18 +111,59 @@ explicitly:
 | "Would you pay £N?" | "What did it end up costing you?" |
 | "Is this a good idea?" | "What was annoying about it?" |
 
-Everything past tense, everything specific, nothing about the product. Tell
-them the follow-ups matter more than the openers: *"What did you try before
-that?"*, *"Who told you to do it that way?"*, *"How long did that take?"*
+Everything past tense, everything specific, nothing about the product. The
+follow-ups matter more than the openers: *"What did you try before that?"*,
+*"Who told you to do it that way?"*, *"How long did that take?"*
 
-Tell them to start with whoever is easiest to reach. The first three
+Tell the user to start with whoever is easiest to reach. The first three
 conversations will be badly run and it is better to be bad at them cheaply.
+
+### Fix the stop condition now
+
+Before the first conversation, get the user to commit to what result means
+stop. Without it they will rationalise whatever they find, and so will you when
+reporting it.
+
+A workable default: *if nobody asks to buy within N conversations, stop*. One
+person asking "where do I get this" outweighs a hundred anonymous approvals.
+Patterns usually appear between ten and fifteen conversations.
+
+## Stage 4 — Steer the conversations, live
+
+Offer both, and let the user pick:
+
+- **Live steering** — they paste each answer as it comes in, or after each
+  conversation, and you direct the next question.
+- **Rehearsal** — you play a customer from the Stage 1 quotes, in that person's
+  own register, and let the user practise. Break character only to flag a
+  leading question.
+- **The handout** — Stages 2 and 3 as a document, if they have no time. Say
+  what they lose: the steering is where most of the value is, because the
+  mistakes repeat.
+
+When steering, respond to each answer with four things and nothing else:
+
+1. **Grade the question they asked.** If it was hypothetical, leading, or about
+   the product, say so and give the replacement wording. Do this first and do
+   it every time — the same mistake recurs across all their conversations, and
+   correcting it early compounds.
+2. **Extract** what the answer actually yielded: behaviour, cost, exact words,
+   commitment signal. Name which of the four are still missing.
+3. **Name the specific unknown** that matters most now.
+4. **Give the literal next question**, one sentence, past tense.
+
+Two rules that hold absolutely:
+
+- **Never supply an answer the user did not get.** If they paraphrase, ask for
+  the verbatim wording. Do not fill a gap with plausible customer language, and
+  do not let an invented quote enter the record. This is the one failure that
+  makes the whole exercise worse than not doing it.
+- **Track the stop condition out loud.** Report the count against it every few
+  conversations, unprompted.
 
 ### Score commitment, not enthusiasm
 
-Give the user the scoring rule before they start, so they cannot grade their
-own results generously afterwards. The currency is anything that costs the
-other person something:
+The currency is anything that costs the other person something:
 
 - They hand over contact details unprompted
 - They introduce someone else with the problem
@@ -95,24 +171,18 @@ other person something:
 - **They have already spent money trying to solve it** — the strongest signal
 
 "Great idea", "I'd definitely use that", and "let me know when it launches"
-with no contact details are noise. Say so when they are offered as results.
-
-### Fix the stop condition in advance
-
-Make the user write down what result means stop, before the first
-conversation. Without it they will rationalise whatever they find, and so will
-you when reporting it.
-
-A workable default: *if nobody asks to buy within N conversations, stop*. One
-person asking "where do I get this" outweighs a hundred anonymous approvals.
-Patterns usually appear between ten and fifteen conversations.
+with no contact details are noise. Say so when they are offered as results,
+including when the user is clearly pleased with them.
 
 ## Output
 
 - Verbatim quotes with dates and links, grouped by what they evidence
 - The frequency count, with its method stated
+- The recruiting list, with what to ask each person
+- Conversation notes, verbatim, with a commitment score each and a note of
+  whether the person was a stranger or a warm introduction
 - Observation separated from inference, explicitly labelled
 - Every load-bearing claim still resting on no evidence
-- The findings that hurt — report these first, not last. They are the ones that
-  change the decision, and an upbeat summary that buries them has failed at the
-  only thing this skill is for.
+- The findings that hurt — first, not last. They are the ones that change the
+  decision, and a summary that buries them has failed at the only thing this
+  skill is for.

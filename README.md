@@ -59,6 +59,11 @@ You get evidence and a verdict, not encouragement:
 Claude will also reach for these on its own when you describe an idea or ask
 whether something is worth pursuing.
 
+`customer-research` does the public-source searching itself, then hands back a
+list of named people who posted about the problem recently — and will coach you
+through the conversations question by question if you paste the answers back,
+correcting leading questions as you go.
+
 ## The order of operations
 
 1. **Cheap kill criteria first.** Before any research, write down what would
