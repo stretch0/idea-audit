@@ -67,6 +67,21 @@ A lifetime flat rate against a cost structure needing recurring revenue is
 fatal: no amount of product quality creates margin that the price does not
 leave.
 
+**Then ask who sets that price.** Where the work being displaced is paid on a
+statutory fee schedule, an insurer or procurement panel rate, a public-sector
+tariff or a capped commission, the ceiling is not a competitor's pricing
+decision that a better product can beat — it is fixed by someone with no stake
+in your margin, and it caps the whole value chain including you.
+
+This is invisible from outside, and it is where "we are displacing expensive
+professional time" goes wrong most often. The same profession frequently has
+both: work priced by the market, and near-identical work priced by a schedule,
+with the scheduled kind being the higher-volume one precisely because someone
+standardised it. Name the segment and its price-setter, not just the
+profession.
+
+Report the answer as a named body and a number, or as unanswered.
+
 ## 4. Does a general-purpose model already answer this adequately?
 
 Decisive for anything whose value is matching, comparison, research or
